@@ -6,7 +6,7 @@ function BlogCard({blog}) {
   const title = blog.title.charAt(0).toUpperCase()+blog.title.slice(1,blog.title.length);
   
   return (
-    <article className="mb-4 bg-gray-100 dark:bg-gray-800 rounded rounded-md shadow">
+    <article className="mb-8 bg-gray-50 dark:bg-gray-800 rounded rounded-md shadow">
       <Image className="rounded" src={blog.thumbnail?.startsWith("http") && blog.thumbnail || ""} width={1000} height={200} />
       <div className="p-4">
         <div className="flex gap-2 flex-wrap">
@@ -20,14 +20,14 @@ function BlogCard({blog}) {
             ))
           }
         </div>
-        <h2 className="text-xl tracking-tight leading-6 font-satoshi-medium my-2">
+        <h2 className="text-xl tracking-wide leading-7 font-satoshi-medium my-2">
           {title}
         </h2>
         <div className="text-sm text-gray-600 dark:text-gray-500">
           <span>{formatDate(blog.date)}</span>
         </div>
         <p className="mt-2 font-supreme-regular">
-          {blog.desc || "Eiusmod aute anim mollit elit ut ex dolor eiusmod labore" }
+          {blog.desc?.slice(0,200)+"..." || "Eiusmod aute anim mollit elit ut ex dolor eiusmod labore" }
         </p>
         <Link href={`/blog/${blog.slug}`}>
           <button className="mt-2 py-1 rounded font-supreme-regular bg-purple-600 text-white text-sm px-2 py-2" type="button">

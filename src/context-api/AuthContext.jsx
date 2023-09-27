@@ -1,6 +1,7 @@
 import { useState, useEffect, createContext, useContext } from "react";
 const AuthContext = createContext();
 import { useRouter } from "next/router";
+import { showToast } from "@/utils"
 
 function AuthProvider({ children }) {
   const [authToken, setAuthToken] = useState(null);
@@ -33,7 +34,7 @@ function AuthProvider({ children }) {
           setAuthToken(null);
         }
       } catch (e) {
-        alert(e.message);
+        showToast(e.message,"error");
       }
     };
 

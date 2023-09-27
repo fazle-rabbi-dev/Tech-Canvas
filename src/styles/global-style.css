@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-200 dark:bg-gray-900 dark:text-white scroll-smooth;
+  @apply bg-gray-100 dark:bg-gray-900 dark:text-white scroll-smooth;
 }
 
 .app {
@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  @apply bg-[rgba(255,254,255,.55)] backdrop-blur dark:bg-[rgba(255,254,255,.08)] shadow fixed z-10 top-0 w-full font-satoshi-medium px-4 py-3 md:px-10 md:py-4;
+  @apply bg-[rgba(255,254,255,.80)] backdrop-blur dark:bg-[rgba(31,41,55,.75)] shadow dark:border-b-[1px] dark:border-b-gray-600 fixed z-10 top-0 w-full font-satoshi-medium px-4 py-3 md:px-10 md:py-4;
 }
 
 .pagination_btn {
@@ -19,7 +19,7 @@ body {
 }
 
 /* Change Tailwind Default Style Fo Blog Page */
-.blog_main_content ul {
+.blog_main_content ul,ol {
   list-style-type: disc;
   padding-left: 25px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .blog_main_content h1,h2,h3,h4,h5,h6 {
-  @apply mt-3 font-bold font-satoshi-medium;
+  @apply my-3 font-bold font-satoshi-medium;
 }
 
 .blog_main_content h1 {

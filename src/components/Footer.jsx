@@ -7,7 +7,7 @@ const date = new Date();
 
 function Footer() {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-800 border-t-[1px] dark:border-t-gray-800 px-4 py-6 text-sm md:px-10 md:flex md:justify-between md:items-end">
+    <footer className="bg-gray-50 dark:bg-gray-800 border-t-[1px] dark:border-t-gray-800 px-4 py-6 text-sm md:px-10 md:flex md:justify-between md:items-end shadow">
       <div className="">
         <h4 className="flex gap-2 items-center text-xl font-satoshi-medium">
           Tech-Canvas
