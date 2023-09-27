@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+Disallow: /*.json
+Disallow: /*.js
+Disallow: /*.sh
+Disallow: /*.md
+Crawl-delay: 60
+
+Sitemap: https://www.tech-canvas.vercel.app
