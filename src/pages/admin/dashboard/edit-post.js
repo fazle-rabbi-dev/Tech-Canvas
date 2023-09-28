@@ -85,7 +85,7 @@ function EditPost() {
             name="desc"
             onChange={onChange}
             placeholder="Post description"
-            className="resize-none w-full rounded outline-0 p-2 border-[1px] bg-white dark:bg-gray-800 dark:ring-0 dark:ring-offset-0 ring-1 ring-gray-300 focus:ring-purple-400"
+            className="w-full rounded outline-0 p-2 border-[1px] bg-white dark:bg-gray-800 dark:ring-0 dark:ring-offset-0 ring-1 ring-gray-300 focus:ring-purple-400"
             type="text"
             id="desc"
             value={desc}
