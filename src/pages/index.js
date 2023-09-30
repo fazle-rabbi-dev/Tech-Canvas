@@ -21,7 +21,7 @@ function Home({ blogsData, tags }) {
   return (
     <>
       <section className="text-center">
-        <h1 className="my-4 md:my-6 font-satoshi-medium text-4xl font-extrabold bg-gradient-to-b from-blue-600 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="font-satoshi-medium text-4xl font-extrabold bg-gradient-to-b from-blue-600 to-purple-500 bg-clip-text text-transparent">
           Explore The World Of Technology
         </h1>
         <div className="md:flex md:justify-center md:items-center md:flex-row-reverse">

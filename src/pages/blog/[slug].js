@@ -19,7 +19,7 @@ hljs.registerLanguage("python", python);
 hljs.registerLanguage("bash", bash);
 hljs.registerLanguage("c", c);
 import socialLinks from "@/social-links";
-import { Facebook } from "lucide-react"
+import { Facebook } from "lucide-react";
 
 function Blog({ blog }) {
   const [loading, setLoading] = useState(true);
@@ -65,9 +65,9 @@ function Blog({ blog }) {
       {blog && <DynamicMetadata data={blog} />}
       <article className="article">
         <div className="">
-          <h2 className="text-xl font-extrabold font-satoshi-medium">
+          <h1 className="text-xl font-extrabold font-satoshi-medium leading-7 tracking-wide">
             {blog.title}
-          </h2>
+          </h1>
           <span className="text-sm text-gray-600 dark:text-gray-400">
             {formatDate(blog.date)}
             {" • "}
@@ -88,8 +88,8 @@ function Blog({ blog }) {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="15"
+                height="15"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -113,8 +113,8 @@ function Blog({ blog }) {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="15"
+                height="15"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -140,8 +140,8 @@ function Blog({ blog }) {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="15"
+                height="15"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -166,8 +166,8 @@ function Blog({ blog }) {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="15"
+                height="15"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -191,7 +191,20 @@ function Blog({ blog }) {
               className="bg-[#0866FF] rounded rounded-full p-2 text-white text-sm"
               type="button"
             >
-              <Facebook />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-facebook"
+              >
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
             </button>
           </a>
         </div>
@@ -207,10 +220,15 @@ function Blog({ blog }) {
         <p className="my-2 font-light font-supreme-regular leading-7">
           {blog?.desc}
         </p>
-        <p
-          className="blog_main_content font-supreme-regular"
-          dangerouslySetInnerHTML={{ __html: blog.sanitizeHTML }}
-        ></p>
+
+        <div className="blog_main_content font-supreme-regular">
+          <p
+            className=""
+            dangerouslySetInnerHTML={{ __html: blog.sanitizeHTML }}
+          ></p>
+        </div>
+
+        {/* Display Tags */}
         <div className="mt-10 mb-5 gap-2 flex flex-wrap">
           {blog?.tags?.map((tag) => (
             <Tag tag={tag} />
