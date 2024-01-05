@@ -1,16 +1,21 @@
 # Tech-Canvas
 
-Tech-Canvas is a solo-authored tech blog web application, meticulously crafted with the following technologies:
+<img width="100%" src="/public/tech-canvas.jpg" alt="Cover Image" />
 
+Tech-Canvas is a Next.js-powered blog platform for exploring the latest in tech trends, tutorials, and insights. Optimized for SEO and user-friendly experience.
+
+> [!Note]
+> I created this blog platform to practice my web development skills, using Next.js for the project. Building this platform boosted my confidence in handling full-stack projects. I introduced a global search bar, allowing users to search throughout the entire application—a feature I implemented for the first time in this project. Additionally, I added a tag feature to each blog post and incorporated Firebase storage. The entire journey was enjoyable, and I gained valuable real-world project-building experience.
+
+## Technologies Used
 - Next.js (13.1.0)
 - Tailwindcss
 - Firebase (for file upload)
-- Marked package for parsing Markdown to HTML
-- Highlight.js for code highlighting
+- `Marked` package for parsing Markdown to HTML
+- `Highlight.js` for code highlighting
 - MongoDB & Mongoose
 
-## Live Demo
-
+## Live Demo 🎉
 Explore the live version of Tech-Canvas [here](https://tech-canvas.vercel.app).
 
 
@@ -60,7 +65,3 @@ You should add all of your social media links in the following file: **src/socia
 Add all your social media
 links in this file
 ```
-
----
-
-Tech-Canvas provides a robust foundation for tech enthusiasts to share their insights and knowledge. If you have any questions or need further assistance, feel free to reach out. Happy blogging! 🚀
