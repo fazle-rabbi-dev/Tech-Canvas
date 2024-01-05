@@ -21,7 +21,7 @@ Explore the live version of Tech-Canvas [here](https://tech-canvas.vercel.app).
 
 ## Getting Started
 
-### Setup for Personal Use
+#### ⚒️ Setup for Personal Use
 
 If you want to utilize this blog web app for your own purposes, follow these steps:
 
@@ -40,7 +40,7 @@ If you want to utilize this blog web app for your own purposes, follow these ste
    $ npm run dev
    ```
 
-### Environment Variables
+#### 🟢 Environment Variables
 
 Make sure to set the following environment variables in your `.env` file:
 * ***NOTE***: You will need to setup firebase cloud storage and also create a **image** folder in firebase storage
@@ -59,9 +59,18 @@ GMAIL_PASSWORD=              # Gmail app password (you need to enable two factor
 RECEIVER_EMAIL=              # Email address where you want to receive contact email/message from contact form 
 ```
 
-### Social Media Links
+#### 🔗 Social Media Links
 You should add all of your social media links in the following file: **src/social-links.js**
 ```
 Add all your social media
 links in this file
 ```
+
+### 🚀 Connect with me
+
+<a target="_blank" href="https://linkedin.com/in/fazlerabbidev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://twitter.com/fazle_rabbi_dev" target="blank"><img align="center" src="https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258862800000000" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://medium.com/fazle-rabbi-dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://dev.to/fazle-rabbi-dev" target="blank"><img align="center" src="https://seeklogo.com/images/D/dev-to-logo-BDC0EFA32F-seeklogo.com.png" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://facebook.com/fazlerabbidev" target="blank"><img align="center" src="https://seeklogo.com/images/F/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://instagram.com/fazle_rabbi_dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
