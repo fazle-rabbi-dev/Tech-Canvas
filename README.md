@@ -4,20 +4,29 @@
 
 Tech-Canvas is a Next.js-powered blog platform for exploring the latest in tech trends, tutorials, and insights. Optimized for SEO and user-friendly experience.
 
+### 🔴 Unveiling the Journey of Building Tech-Canvas
 > [!Note]
 > I created this blog platform to practice my web development skills, using Next.js for the project. Building this platform boosted my confidence in handling full-stack projects. I introduced a global search bar, allowing users to search throughout the entire application—a feature I implemented for the first time in this project. Additionally, I added a tag feature to each blog post and incorporated Firebase storage. The entire journey was enjoyable, and I gained valuable real-world project-building experience.
 
-## Technologies Used
+## Technologies Used ⚒️
 - Next.js (13.1.0)
-- Tailwindcss
+- TailwindCSS
 - Firebase (for file upload)
 - `Marked` package for parsing Markdown to HTML
 - `Highlight.js` for code highlighting
 - MongoDB & Mongoose
 
+### Features
+- 🔐 Secure admin panel
+- 🔍 Search functionality
+- ✅ Markdown support
+- 📝 CRUD operations for blogs
+- 🔄 SSR and SSG for enhanced performance
+- 🖼️ Firebase integration for file uploads
+- 📄 Pagination for a smooth browsing experience
+
 ## Live Demo 🎉
 Explore the live version of Tech-Canvas [here](https://tech-canvas.vercel.app).
-
 
 ## Getting Started
 
