@@ -1,14 +1,17 @@
 # Tech-Canvas
 
-<img width="100%" src="/public/tech-canvas.jpg" alt="Cover Image" />
+<img width="100%" src="/public/tech-canvas.jpg" alt="Tech-Canvas - Thumbnail" />
 
 Tech-Canvas is a Next.js-powered blog platform for exploring the latest in tech trends, tutorials, and insights. Optimized for SEO and user-friendly experience.
 
-### 🔴 Unveiling the Journey of Building Tech-Canvas
+## 🔴 Unveiling the Journey of Building Tech-Canvas
 > [!Note]
 > I created this blog platform to practice my web development skills, using Next.js for the project. Building this platform boosted my confidence in handling full-stack projects. I introduced a global search bar, allowing users to search throughout the entire application—a feature I implemented for the first time in this project. Additionally, I added a tag feature to each blog post and incorporated Firebase storage. The entire journey was enjoyable, and I gained valuable real-world project-building experience.
 
-## Technologies Used ⚒️
+### Project Created at
+- 🗓 *Sept 2023*
+
+### Technologies Used ⚒️
 - Next.js (13.1.0)
 - TailwindCSS
 - Firebase (for file upload)
@@ -25,7 +28,7 @@ Tech-Canvas is a Next.js-powered blog platform for exploring the latest in tech 
 - 🖼️ Firebase integration for file uploads
 - 📄 Pagination for a smooth browsing experience
 
-## Live Demo 🎉
+### Live Demo 🎉
 Explore the live version of Tech-Canvas [here](https://tech-canvas.vercel.app).
 
 ## Getting Started
@@ -76,10 +79,11 @@ links in this file
 ```
 
 ### 📬 Connect with me
+> Let's connect! Reach out for collaborations, projects, or just a friendly chat.
 
 <a target="_blank" href="https://linkedin.com/in/fazlerabbidev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
 <a target="_blank" href="https://twitter.com/fazle_rabbi_dev" target="blank"><img align="center" src="https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258862800000000" alt="Fazle Rabbi" height="30" width="auto" /></a>
-<a target="_blank" href="https://medium.com/fazle-rabbi-dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
+<a target="_blank" href="https://medium.com/@fazle-rabbi-dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
 <a target="_blank" href="https://dev.to/fazle-rabbi-dev" target="blank"><img align="center" src="https://seeklogo.com/images/D/dev-to-logo-BDC0EFA32F-seeklogo.com.png" alt="Fazle Rabbi" height="30" width="auto" /></a>
 <a target="_blank" href="https://facebook.com/fazlerabbidev" target="blank"><img align="center" src="https://seeklogo.com/images/F/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt="Fazle Rabbi" height="30" width="auto" /></a>
 <a target="_blank" href="https://instagram.com/fazle_rabbi_dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Fazle Rabbi" height="30" width="auto" /></a>
