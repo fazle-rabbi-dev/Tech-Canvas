@@ -3,6 +3,8 @@ import React from "react";
 function MetaData() {
   return (
     <>
+      <meta name="google-site-verification" content="e2eypPimpfZkOQOEpkZSgIbHZCp1EuaV8O5NPn4zNnc" />
+      
       {/*Metadata for Open Graph and Twitter*/}
       <meta property="og:title" content="Tech-Canvas - Unveiling the World of Technology, Coding, and More" />
       <meta property="og:description" content="Explore a diverse array of insightful articles on technology, coding practices, and cutting-edge innovations at Tech-Canvas. Stay updated with the latest trends and expert insights in the tech world." />
@@ -28,7 +30,7 @@ function MetaData() {
       <meta name="hostname" content="tech-canvas.vercel.app" />
       <meta name="author" content="Fazle Rabbi" />
       <meta name="description" content="Explore a diverse array of insightful articles on technology, coding practices, and cutting-edge innovations at Tech-Canvas. Stay updated with the latest trends and expert insights in the tech world." />
-      <meta name="theme-color" content="#210e31" />
+      <meta name="theme-color" content="#f8f8f8" />
 
       {/*Link and Canonical Tags*/}
       <link rel="canonical" href="https://tech-canvas.vercel.app" />

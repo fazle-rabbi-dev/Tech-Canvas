@@ -11,6 +11,7 @@ import BlogLists from "./dashboard/BlogLists";
 import DashboardTags from "./dashboard/Tags";
 import RouteLoader from "./RouteLoader";
 import DynamicMetadata from "./DynamicMetadata";
+import Hero from "./Hero";
 
 
 export {
@@ -26,5 +27,6 @@ export {
   Loading,
   Footer,
   NotFound,
-  DynamicMetadata
+  DynamicMetadata,
+  Hero
 };

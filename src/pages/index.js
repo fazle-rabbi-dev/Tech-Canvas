@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const { Blogs } = require("@/mongoose");
-import { BlogCard, Pagination, Tag, Loading } from "@/components";
+import { Hero, BlogCard, Pagination, Tag, Loading } from "@/components";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
@@ -20,28 +20,7 @@ function Home({ blogsData, tags }) {
 
   return (
     <>
-      <section className="text-center">
-        <h1 className="font-satoshi-medium text-4xl font-extrabold bg-gradient-to-b from-blue-600 to-purple-500 bg-clip-text text-transparent">
-          Explore The World Of Technology
-        </h1>
-        <div className="md:flex md:justify-center md:items-center md:flex-row-reverse">
-          <div className="md:w-[40%]">
-            <Image
-              className="w-[100%]"
-              src="/hero.svg"
-              width={1000}
-              height={600}
-            />
-          </div>
-          <p className="md:w-[60%] leading-7 my-2 font-supreme-regular">
-            My name is <span>Fazle Rabbi.</span>Im a mern stack developer.Here's i
-            write blog about technology. 🚀 Embrace the Future with Tech! Explore
-            the latest innovations, trends, and gadgets that are shaping our
-            world. From AI to IoT, we've got you covered. Let's embark on a
-            journey of discovery together!
-          </p>
-        </div>
-      </section>
+      <Hero />
 
       {/* Blog Card */}
       <section className="mt-5">

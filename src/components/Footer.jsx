@@ -6,6 +6,9 @@ import socialLinks from "@/social-links";
 const date = new Date();
 
 function Footer() {
+  
+  console.log(socialLinks)
+  
   return (
     <footer className="bg-gray-50 dark:bg-gray-800 border-t-[1px] dark:border-t-gray-800 px-4 py-6 text-sm md:px-10 md:flex md:justify-between md:items-end shadow">
       <div className="">

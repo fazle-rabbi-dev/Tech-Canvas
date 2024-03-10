@@ -221,9 +221,9 @@ function Blog({ blog }) {
           {blog?.desc}
         </p>
 
-        <div className="blog_main_content font-supreme-regular">
+        <div className="mt-6 blog_main_content font-supreme-regular">
           <p
-            className=""
+            className="prose"
             dangerouslySetInnerHTML={{ __html: blog.sanitizeHTML }}
           ></p>
         </div>
