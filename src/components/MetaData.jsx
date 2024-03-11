@@ -8,10 +8,8 @@ function MetaData() {
       {/*Metadata for Open Graph and Twitter*/}
       <meta property="og:title" content="Tech-Canvas - Unveiling the World of Technology, Coding, and More" />
       <meta property="og:description" content="Explore a diverse array of insightful articles on technology, coding practices, and cutting-edge innovations at Tech-Canvas. Stay updated with the latest trends and expert insights in the tech world." />
-      <meta property="og:image" content="/hero.svg" />
-      <meta property="og:image:width" content="1000" />
-      <meta property="og:image:height" content="1000" />
-      <meta property="og:image:type" content="image/svg+xml" />
+      <meta property="og:image" content="/og.jpg" />
+      <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.tech-canvas.vercel.app" />
       <meta property="og:site_name" content="Tech-Canvas" />
@@ -19,7 +17,7 @@ function MetaData() {
 
       <meta property="twitter:title" content="Tech-Canvas - Unveiling the World of Technology, Coding, and More" />
       <meta property="twitter:description" content="Explore a diverse array of insightful articles on technology, coding practices, and cutting-edge innovations at Tech-Canvas. Stay updated with the latest trends and expert insights in the tech world." />
-      <meta property="twitter:image:src" content="/hero.svg" />
+      <meta property="twitter:image:src" content="https://tech-canvas.vercel.app/og.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:site" content="@fazle-rabbi-dev" />
       <meta property="twitter:domain" content="https://www.tech-canvas.vercel.app" />
