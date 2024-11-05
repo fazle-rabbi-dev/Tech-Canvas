@@ -7,7 +7,13 @@ function BlogCard({blog}) {
   
   return (
     <article className="mb-8 bg-gray-50 dark:bg-gray-800 rounded rounded-md shadow">
-      <Image className="rounded" src={blog.thumbnail?.startsWith("http") && blog.thumbnail || ""} width={1000} height={200} />
+      <Image 
+        className="rounded w-full h-[200px] object-cover" 
+        src={blog.thumbnail?.startsWith("http") ? blog.thumbnail : ""}
+        width={1000}
+        height={200}
+        alt="Blog Thumbnail"
+      />
       <div className="p-4">
         <div className="flex gap-2 flex-wrap">
           {
