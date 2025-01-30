@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AuthProvider } from "@/context-api";
+import MetaData from "@/components/MetaData";
 
 export default function MyApp({ Component, pageProps }) {
   const [progress, setProgress] = useState(0);

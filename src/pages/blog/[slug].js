@@ -57,27 +57,22 @@ function Blog({ blog }) {
     });
   }, [loading]);
 
-  if (loading) {
+  /*if (loading) {
     return <Loading />;
-  }
+  }*/
 
   return (
     <>
       {
-        /*blog && <DynamicMetadata data={blog} />*/
+        blog && <DynamicMetadata data={blog} />
       }
-      
-      <Head>
-        <title>{blog.title}</title>
-      </Head>
-      
       <article className="article">
         <div className="">
           <h1 className="text-xl font-extrabold font-satoshi-medium leading-7 tracking-wide">
-            {blog.title}
+            {blog?.title}
           </h1>
           <span className="text-sm text-gray-600 dark:text-gray-400">
-            {formatDate(blog.date)}
+            {formatDate(blog?.date)}
             {" • "}
           </span>
           <span className="text-sm text-gray-600 dark:text-gray-400">
@@ -221,7 +216,7 @@ function Blog({ blog }) {
           height={200}
           className="my-4 w-full"
           src={`${
-            blog.thumbnail || "https://source.unsplash.com/random/300x200"
+            blog?.thumbnail || "https://source.unsplash.com/random/300x200"
           }`}
           alt="Thumbnail"
         />
@@ -232,7 +227,7 @@ function Blog({ blog }) {
         <div className="mt-6 blog_main_content font-supreme-regular">
           <p
             className="prose"
-            dangerouslySetInnerHTML={{ __html: blog.sanitizeHTML }}
+            dangerouslySetInnerHTML={{ __html: blog?.sanitizeHTML }}
           ></p>
         </div>
 
@@ -269,7 +264,7 @@ export async function getStaticPaths() {
     const paths = blogs.map((blog) => {
       return {
         params: {
-          slug: blog.slug,
+          slug: blog?.slug,
         },
       };
     });
