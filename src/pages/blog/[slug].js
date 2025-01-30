@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const { Blogs } = require("@/mongoose");
+import Head from "next/head";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Loading, Tag, DynamicMetadata } from "@/components";
@@ -62,7 +63,14 @@ function Blog({ blog }) {
 
   return (
     <>
-      {blog && <DynamicMetadata data={blog} />}
+      {
+        /*blog && <DynamicMetadata data={blog} />*/
+      }
+      
+      <Head>
+        <title>{blog.title}</title>
+      </Head>
+      
       <article className="article">
         <div className="">
           <h1 className="text-xl font-extrabold font-satoshi-medium leading-7 tracking-wide">
