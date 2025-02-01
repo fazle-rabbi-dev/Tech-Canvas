@@ -3,7 +3,7 @@ import React from "react";
 function MetaData() {
   return (
     <>
-      <meta name="google-site-verification" content="e2eypPimpfZkOQOEpkZSgIbHZCp1EuaV8O5NPn4zNnc" />
+      <meta name="google-site-verification" content="bBOJ8YhTLw-vz1qayvGCHKw3GnTLPoQ4RWRodFvBqI4" />
       
       {/*Metadata for Open Graph and Twitter*/}
       <meta property="og:title" content="Tech-Canvas - Unveiling the World of Technology, Coding, and More" />
