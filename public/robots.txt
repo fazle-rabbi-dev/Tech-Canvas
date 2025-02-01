@@ -5,6 +5,6 @@ Disallow: /*.json
 Disallow: /*.js
 Disallow: /*.sh
 Disallow: /*.md
-Crawl-delay: 60
+Crawl-delay: 10
 
-Sitemap: https://www.tech-canvas.vercel.app
+Sitemap: https://www.tech-canvas.vercel.app/sitemap.xml
