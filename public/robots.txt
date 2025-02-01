@@ -7,4 +7,4 @@ Disallow: /*.sh
 Disallow: /*.md
 Crawl-delay: 10
 
-Sitemap: https://www.tech-canvas.vercel.app/sitemap.xml
+Sitemap: https://tech-canvas.vercel.app/sitemap.xml
