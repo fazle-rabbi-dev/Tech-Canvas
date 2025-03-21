@@ -1,13 +1,16 @@
+import { useEffect, useState } from "react";
+import LoadingBar from "react-top-loading-bar";
+import { useRouter } from "next/router";
+import Head from "next/head";
+import { ToastContainer } from "react-toastify";
+
+import { AuthProvider } from "@/context-api";
+import { Header, Tags, Footer, RouteLoader } from "@/components";
+import DefaultMetaData from "@/components/DefaultMetaData";
 import "@/styles/global-style.css";
 import "@/styles/fonts.css";
-import LoadingBar from "react-top-loading-bar";
-import { Header, Tags, Footer, RouteLoader } from "@/components";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { AuthProvider } from "@/context-api";
-import MetaData from "@/components/MetaData";
+
 
 export default function MyApp({ Component, pageProps }) {
   const [progress, setProgress] = useState(0);
@@ -28,6 +31,7 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <DefaultMetaData />
       <AuthProvider>
         <LoadingBar
           color="#7f25eb"
